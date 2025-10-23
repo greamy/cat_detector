@@ -6,3 +6,9 @@ __pycache__/
 .git/
 .gitignore
 *.md
+.git/
+.gitignore
+get-docker.sh
+personalaccesstokengit.txt
+*.pt
+
