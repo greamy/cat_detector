@@ -22,6 +22,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application code
 COPY detect.py .
+COPY yolov8l.pt .
 
 # Create directory for YOLO models cache
 RUN mkdir -p /root/.cache/ultralytics

@@ -2,8 +2,8 @@ version: '3.8'
 
 services:
   catdetector:
-    #build: .
-    image: catdetector-catdetector:latest
+    build: .
+    #image: catdetector-catdetector:latest
     container_name: catdetector
     restart: unless-stopped
     network_mode: host
