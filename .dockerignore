@@ -10,5 +10,4 @@ __pycache__/
 .gitignore
 get-docker.sh
 personalaccesstokengit.txt
-*.pt
 
