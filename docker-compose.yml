@@ -2,6 +2,7 @@ version: '3.8'
 
 services:
   catdetector:
+    #build: .
     image: catdetector-catdetector:latest
     container_name: catdetector
     restart: unless-stopped
@@ -16,7 +17,7 @@ services:
     environment:
       - NVIDIA_VISIBLE_DEVICES=all
     volumes:
-      - ./detect.py:/app/detect.py
+      #- ./detect.py:/app/detect.py
       - ./yolov8l.pt:/app/yolov8l.pt:ro
       - yolo_cache:/root/.cache/ultralytics
     logging:
